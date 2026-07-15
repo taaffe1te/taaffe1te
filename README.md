@@ -1,50 +1,48 @@
-## Hi, I'm Makar 👋
+# Makar Mironov
 
-**IoT & Embedded Security Engineer** | BMSTU (2026)
+**IoT Security Researcher | Firmware RE | Embedded Systems**  
+Moscow · BMSTU 2026 · traefl21@gmail.com
 
+---
 
-### About me
-- Bachelor's in Computer Science & Robotics, BMSTU (2026)
-- Certification in Cybersecurity, BMSTU (2026)
-- Focus: **embedded systems security**, IoT network monitoring, firmware analysis
-- Open to junior security engineer / IoT security roles
+## What I do
 
+I reverse firmware and look for vulnerabilities in embedded devices.  
+Started with building a real-time Wi-Fi intrusion detection system on ESP32 —  
+raw ICMP over lwIP sockets, ARP table inspection, whitelist security model.  
+Now going deeper: firmware extraction, static analysis in Ghidra, IoT malware.
 
+---
 
-### Current projects
-- **ESP32 Network Scanner** — real-time network anomaly detection on microcontroller hardware
-- **IoT Firmware Analyzer** — automated vulnerability scanning for embedded firmware *(in progress)*
+## Projects
 
+**[ESP32 Network Security Monitor](https://github.com/taaffe1te/esp32-network-scanner)**  
+Standalone Wi-Fi monitor with unauthorized device detection (<200ms response).  
+Raw ICMP from scratch · ARP table via lwIP internals · NVS persistent storage · Custom ST7789 SPI driver  
 
+**[Router Firmware Analysis — TP-Link WR841N](https://github.com/taaffe1te/router-firmware-analysis)**  
+Firmware extraction and static analysis: Binwalk → squashfs → Ghidra (MIPS32).  
+Found: hardcoded credentials, unsafe strcpy() in HTTP handler, outdated BusyBox (CVE-2016-2147)
 
-### Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+---
 
+## Stack
 
-### Hardware & Engineering
-- Microcontrollers: **ESP32**, STM32, Arduino
-- Interfaces: UART, SPI, I2C, JTAG
-- PCB basics, circuit debugging, oscilloscope
-- Robotics & automation systems (BMSTU specialization)
-- Network protocols: TCP/IP, Wi-Fi 802.11, MQTT
+`C/C++` `Python` `Bash` · `ESP32` `STM32` · `UART` `SPI` `I2C` `JTAG`  
+`Ghidra` `Binwalk` `Wireshark` `Nmap` · `Linux (Kali)` `GDB`  
+`TCP/IP` `ICMP` `ARP` · `MITRE ATT&CK` `Threat Modeling`
 
+---
 
-### Security Tools
-- Firmware analysis: Binwalk, Ghidra
-- Network: Wireshark, Nmap
-- Platforms: TryHackMe, HackTheBox *(in progress)*
+## Currently learning
 
-### GitHub Stats
-![Makar's GitHub stats](https://github-readme-stats.vercel.app/api?username=taaffe1te&show_icons=true&theme=default&hide_border=true)
+- Reverse engineering: x86/ARM assembly, binary exploitation (Hacking: The Art of Exploitation)
+- Firmware RE: QEMU emulation, dynamic analysis with gdbserver
+- IoT malware: analyzing Mirai samples in Ghidra
 
+---
 
+## Contact
 
-### Contact
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/taaffe1te)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:taaffe1te@mail.ru)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:traefl21@gmail.com)
