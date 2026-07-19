@@ -29,7 +29,7 @@ Found: hardcoded credentials, unsafe strcpy() in HTTP handler, outdated BusyBox 
 ## Stack
 
 `C/C++` `Python` `Bash` · `ESP32` `STM32` · `UART` `SPI` `I2C` `JTAG`  
-`Ghidra` `Binwalk` `Wireshark` `Nmap` · `Linux (Kali)` `GDB`  
+`Ghidra` `Binwalk` `Wireshark` `Nmap` · `Linux (Kali, Ubuntu)` `GDB`  
 `TCP/IP` `ICMP` `ARP` · `MITRE ATT&CK` `Threat Modeling`
 
 ---
