@@ -24,6 +24,10 @@ Raw ICMP from scratch · ARP table via lwIP internals · NVS persistent storage 
 Firmware extraction and static analysis: Binwalk → squashfs → Ghidra (MIPS32).  
 Found: hardcoded credentials, unsafe strcpy() in HTTP handler, outdated BusyBox (CVE-2016-2147)
 
+**[Mirai IoT Botnet Analysis](https://github.com/taaffe1te/mirai-analysis)**  
+Static analysis of Mirai botnet sample — MIPS32 ELF, stripped binary.  
+Ghidra RE · YARA detection rule (confirmed) · Multi-arch payload analysis · MITRE ATT&CK mapping
+
 ---
 
 ## Stack
