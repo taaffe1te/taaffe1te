@@ -28,6 +28,9 @@ Found: hardcoded credentials, unsafe strcpy() in HTTP handler, outdated BusyBox 
 Static analysis of Mirai botnet sample — MIPS32 ELF, stripped binary.  
 Ghidra RE · YARA detection rule (confirmed) · Multi-arch payload analysis · MITRE ATT&CK mapping
 
+**[IoT Network Security Scanner](https://github.com/taaffe1te/iot-network-scanner)**  
+Python tool for IoT device discovery, vendor identification and vulnerability assessment.  
+Banner grabbing · CVE matching · MAC OUI lookup · Risk scoring · JSON reports
 ---
 
 ## Stack
