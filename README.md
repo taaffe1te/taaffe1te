@@ -31,6 +31,7 @@ Ghidra RE · YARA detection rule (confirmed) · Multi-arch payload analysis · M
 **[IoT Network Security Scanner](https://github.com/taaffe1te/iot-network-scanner)**  
 Python tool for IoT device discovery, vendor identification and vulnerability assessment.  
 Banner grabbing · CVE matching · MAC OUI lookup · Risk scoring · JSON reports
+
 ---
 
 ## Stack
